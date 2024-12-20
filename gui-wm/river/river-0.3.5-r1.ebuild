@@ -36,7 +36,7 @@ BDEPEND="
 	|| ( =dev-lang/zig-${EZIG_VISION} =dev-lang/zig-bin-${EZIG_VISION} )
 	dev-libs/wayland-protocols
 	man? ( app-text/scdoc )
-	sys-apps/coreutils:=[-static]
+	sys-apps/coreutils[-static]
 	virtual/pkgconfig
 "
 
